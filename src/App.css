@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#fifa-card {
+  color: #40351d;
+  font-family: cruyffSansMedium, "Open Sans", sans-serif;
+  width: 300px;
+  height: 440px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  background-image: url(https://i.pinimg.com/originals/24/bb/52/24bb5228252e4adb2b466e5471c8842d.png);
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+#fifa-card #name {
+  font-size: 28px;
+  position: absolute;
+  top: 225px;
+}
+#fifa-card #player {
+  height: 180px;
+  position: absolute;
+  left: 95px;
+  top: 55px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#fifa-card #flag {
+  position: absolute;
+  height: 28px;
+  width: 40px;
+  right: 200px;
+  top: 142px;
+}
+
+#fifa-card #power {
+  font-size: 45px;
+  position: absolute;
+  right: 193px;
+  top: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#fifa-card #position {
+  position: absolute;
+  right: 196px;
+  top: 78px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#fifa-card #team {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  right: 200px;
+  top: 182px;
+}
+
+#fifa-card #pac {
+  position: absolute;
+  top: 272px;
+  left: 55px;
+}
+
+#fifa-card #sho {
+  position: absolute;
+  top: 302px;
+  left: 55px;
+}
+
+#fifa-card #pas {
+  position: absolute;
+  top: 332px;
+  left: 55px;
+}
+
+#fifa-card #dri {
+  position: absolute;
+  top: 272px;
+  left: 175px;
+}
+
+#fifa-card #def {
+  position: absolute;
+  top: 302px;
+  left: 175px;
+}
+
+#fifa-card #phy {
+  position: absolute;
+  top: 332px;
+  left: 175px;
+  font-family: cruyffSansMedium, "Open Sans", sans-serif;
+}
+
+.App {
+  position: absolute;
+  display: flex;
+  gap: 80px;
+  left: 200px;
 }
